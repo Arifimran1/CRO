@@ -80,7 +80,7 @@ int main()
         float alpha = n/2;
         float KE = n/1.5;
         maxPopSize = popp;
-        minSol.PE = 9999999;
+        minSol.PE = numeric_limits<float>::max();
 
         //cin >> str1;
         //input("30-100.txt");
