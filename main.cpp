@@ -8,7 +8,7 @@ using namespace std;
 struct solution
 {
     int w[1001];
-    float PE = 999999;
+    float PE = numeric_limits<float>::max();
 };
 
 solution sol[10001];
